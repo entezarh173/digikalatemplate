@@ -23,7 +23,12 @@ body {
   font-family: Vazir;
   position: relative;
 }
-
+.ltr {
+  direction: ltr;
+}
+.rtl {
+  direction: rtl;
+}
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -236,7 +241,7 @@ body {
 .cover-under-menu.active {
   display: block;
 }
-.category-menu{
+.category-menu {
   padding: 7px 0px;
   position: relative;
 }
@@ -248,7 +253,7 @@ body {
   top: 31px;
   border-bottom-left-radius: 10px;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 9999;
   width: 1280px;
   display: none;
@@ -257,7 +262,6 @@ body {
 .category-menu-list .sidebar-category-menu {
   width: 15%;
   min-height: 400px;
-
 }
 .category-menu-list .sidebar-category-menu ul {
   width: 100%;
@@ -303,25 +307,24 @@ body {
   /* color: #9e9fb1; */
   margin-right: 10px;
 }
-.content-category-menu ul{
+.content-category-menu ul {
   width: 25%;
   margin-top: 20px;
 }
-.content-category-menu ul li{
+.content-category-menu ul li {
   list-style: none;
   text-align: right;
   font-size: 13px;
   padding: 5px;
   color: #9e9fb1;
 }
-.content-category-menu ul li:first-child{
+.content-category-menu ul li:first-child {
   font-size: 14px;
   position: relative;
   padding: 6px 15px;
   color: #212529;
-
 }
-.content-category-menu ul li:first-child::before{
+.content-category-menu ul li:first-child::before {
   content: "";
   width: 2px;
   height: 15px;
@@ -330,6 +333,64 @@ body {
   top: 9px;
   right: 5px;
 }
+
+/* Start Slider Style*/
+.slider {
+  width: 100%;
+  height: auto;
+}
+.slider img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+.owl-nav {
+  position: absolute;
+  top: 80%;
+  right: 20px;
+  width: 141px;
+  height: 50px;
+  display: flex;
+  transition: all .3s;
+  opacity: 0;
+}
+.owl-nav.active{
+  opacity: 1;
+}
+.owl-nav button {
+  width: 45px;
+  height: 45px;
+  background-color: #fff !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  font-size: 18px !important;
+}
+.owl-dots {
+  position: absolute;
+  top: 94%;
+  width: 100px;
+  right: 50%;
+  left: 50%;
+}
+
+.owl-dots .owl-dot span{
+  width: 6px;
+    height: 6px;
+    background: #0000009f !important;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: block;
+}
+.owl-dots .owl-dot.active span{
+  background-color: #fff !important;
+  width: 15px;
+  transition: all .4s;
+  border-radius: 5px;
+}
+/* end Slider Style*/
 
 /* .category-menu-list .content-category-menu ul {
   width: 100%;
