@@ -18,21 +18,13 @@ categoryMenu.addEventListener("mousemove", () => {
   categoryMenuList.style.display = "block";
   document.body.style.overflow = "hidden";
 });
-// categoryMenuList.addEventListener('mousemove',()=>{
-//     categoryMenuList.style.display = 'block';
-//     document.body.style.overflow = 'hidden';
-// });
 
 categoryMenu.addEventListener("mouseleave", () => {
   categoryMenuList.style.display = "none";
   document.body.style.overflow = "auto";
 });
-// categoryMenu.addEventListener('mouseleave',()=>{
-//     categoryMenuList.style.display = 'none';
-//     document.body.style.overflow = 'auto';
-// });
 
-//slider
+//slider swiper
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     items: 1,
@@ -49,4 +41,86 @@ elem.addEventListener("mousemove", () => {
 });
 elem.addEventListener("mouseleave", () => {
   document.querySelector(".owl-nav").classList.remove("active");
+});
+
+const swiper = new Swiper(".swiper", {
+  speed: 400,
+  spaceBetween: 2,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    1200: {
+      slidesPerView: 7,
+    },
+    // when window width is >= 480px
+    1000: {
+      slidesPerView: 6,
+    },
+    // when window width is >= 640px
+    700: {
+      slidesPerView: 4,
+    },
+    600: {
+      slidesPerView: 3,
+    },
+    200: {
+      slidesPerView: 2,
+    },
+  },
+});
+
+const swiper_Proposal = new Swiper(".swiper_proposal", {
+  speed: 400,
+  spaceBetween: 0,
+  slidesPerView: 7,
+  breakpoints: {
+    // when window width is >= 320px
+    1200: {
+      slidesPerView: 7,
+    },
+    // when window width is >= 480px
+    1000: {
+      slidesPerView: 6,
+    },
+    // when window width is >= 640px
+    700: {
+      slidesPerView: 4,
+    },
+    600: {
+      slidesPerView: 3,
+    },
+    200: {
+      slidesPerView: 2,
+    },
+  },
+});
+const swiper_baner = new Swiper(".swiper_baner", {
+  speed: 400,
+  spaceBetween: 0,
+  breakpoints: {
+    1200: {
+      slidesPerView: 10,
+    },
+    // when window width is >= 480px
+    1000: {
+      slidesPerView: 6,
+    },
+    // when window width is >= 640px
+    700: {
+      slidesPerView: 4,
+    },
+    600: {
+      slidesPerView: 3,
+    },
+    200: {
+      slidesPerView: 2,
+    },
+  },
+  navigation: {
+    nextEl: ".brand .swiper-button-next",
+    prevEl: ".brand .swiper-button-prev",
+  },
 });

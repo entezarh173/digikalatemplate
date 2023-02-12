@@ -1,0 +1,56 @@
+/* start Proposal Style*/
+.Proposal {
+    margin-top: 40px;
+    padding: 12px 20px;
+    overflow: hidden;
+  }
+  .Proposal h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 0;
+  }
+  .swiper_proposal {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .proposal_item {
+    padding: 25px 3px;
+  }
+  .proposal_item .proposal_img {
+    width: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #f1f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 90px;
+  }
+  .proposal_item img {
+    width: 61%;
+    height: auto;
+  }
+  .proposal-wraper .proposal_item {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px 0px;
+  }
+  .swiper_proposal .swiper-slide {
+    border-left: 1px solid #ccc;
+  }
+  .swiper_proposal .swiper-slide:last-child {
+    border-left: none;
+  }
+  .proposal-wraper .swiper-slide {
+    border-left: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* end Proposal Style*/

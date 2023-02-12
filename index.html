@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="assets/css/font-awesome.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Document</title>
@@ -23,11 +26,16 @@
             alt="" />
         </div>
         <div class="row header-top m-0">
-          <div class="col-1 text-right icon-top p-0">
+          <div
+            class="d-flex justify-content-between mb-3 align-items-center col-12 col-lg-1 text-right icon-top p-0">
+            <button class="icon-header d-block d-lg-none"><i class="fa fa-bars"></i></button>
             <a href="#"><img src="assets/img/icon.svg" alt="digikala.com" /></a>
+            <button class="icon-header d-block d-lg-none">
+              <i class="fa fa-question-circle-o"></i>
+            </button>
           </div>
-          <div class="col-9 text-right">
-            <div type="text" class="search-top-box">
+          <div class="col-10 d-flex align-items-center col-lg-9 text-right pr-0">
+            <div type="text" class="search-top-box mr-lg-5 w-100">
               جست و جو
               <div class="search-box">
                 <input
@@ -78,10 +86,10 @@
               </div>
             </div>
           </div>
-          <div class="col-2 text-left btn-box-header">
+          <div class="col-2 pl-0 text-left btn-box-header d-flex justify-content-start">
             <a href="#" class="login-btn-header">
               <i class="fa fa-sign-in"></i>
-              ورود | ثبت نام
+              ورود <span class="d-none d-lg-block">| ثبت نام </span>
             </a>
             <div class="seperator-login-basket"></div>
             <a href="#" class="basket-btn-header">
@@ -90,7 +98,7 @@
           </div>
         </div>
         <div class="row m-0 position-relative">
-          <nav class="col-10 navbar-top">
+          <nav class="col-10 d-none d-lg-block navbar-top">
             <ul class="menu-top text-right m-0">
               <li class="category-menu">
                 <i class="fa fa-bars"></i>
@@ -363,11 +371,14 @@
             </ul>
           </nav>
           <div
-            class="col-2 location-select-btn"
+            class="col-12 col-lg-2  mb-3 mt-3 location-select-btn d-flex justify-content-between"
             data-toggle="modal"
             data-target="#exampleModal">
+          <div>
             <i class="fa fa-map-marker"></i>
             لطفا شهر خود را انتخاب کنید
+          </div>
+          <i class="fa fa-angle-left d-block d-lg-none"></i>
           </div>
         </div>
       </header>
@@ -382,12 +393,858 @@
         </div>
       </section>
       <!-- Start slider Section -->
-    </div>
+      <!-- Start services Section -->
+      <section class="services">
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises1.png" alt="" />
+          <span>حراج استایل</span>
+        </a>
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises2.png" alt="" />
+          <span>دیجی‌کالا جت</span>
+        </a>
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises3.png" alt="" />
+          <span>دیجی‌کالا جت</span>
+        </a>
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises4.png" alt="" />
+          <span>دیجی‌کالا جت</span>
+        </a>
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises5.png" alt="" />
+          <span>دیجی‌کالا جت</span>
+        </a>
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises6.png" alt="" />
+          <span>دیجی‌کالا جت</span>
+        </a>
+        <a href="#" class="servises-item">
+          <img src="assets/img/servises/servises7.png" alt="" />
+          <span>دیجی‌کالا جت</span>
+        </a>
+        <a href="#" class="servises-item">
+          <div class="more">...</div>
+          <span>بیشتر</span>
+        </a>
+      </section>
+      <!-- End services Section -->
+      <!-- Start Amazing offer Section -->
+      <section class="amazing-offer">
+        <div class="amazing-offer-slider">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide first_slide">
+                <img src="assets/img/amazing.svg" width="80px" alt="" />
+                <img src="assets/img/amazing.png" width="130px" alt="" />
+                <a
+                  class="d-flex justify-content-center align-items-center"
+                  href="#">
+                  مشاهده همه
+                  <i class="fa fa-angle-left mr-2 mt-1"></i>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product1.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product2.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product3.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product4.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product5.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product6.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product7.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product8.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product1.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product1.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product_items">
+                  <a href="#">
+                    <div style="padding: 0px 17px">
+                      <img
+                        width="150px"
+                        src="assets/img/amazingslider/product1.webp"
+                        alt="" />
+                    </div>
+                    <div class="price_discount">
+                      <span class="badage">۶۱٪</span>
+                      <div><span class="ml-2">۳۵۹,۰۰۰</span>تومان</div>
+                    </div>
+                    <div class="discount">۱,۲۹۰,۰۰۰</div>
+                    <div class="scroll-discount">
+                      <div class="position-relative">
+                        <span class="bg-scroll"></span
+                        ><span class="front-scroll"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Amazing offer Section -->
 
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <!-- Start Ads Section -->
+      <section class="container-fluid ads">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="assets/img/adsSlider/ads1.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="assets/img/adsSlider/ads2.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="assets/img/adsSlider/ads3.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="assets/img/adsSlider/ads4.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- End Ads Section -->
+
+      <!-- Start Categories Section -->
+      <section class="categories">
+        <h2>دسته‌بندی‌های دیجی‌کالا</h2>
+        <div class="category_wraper">
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category1.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category2.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category3.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category4.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category5.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category6.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category7.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category8.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category9.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category10.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="assets/img/cetegories/category11.webp"
+                alt="" />
+              <span class="title-category">خودرو، ابزار و تجهیزات صنعتی</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End Categories Section -->
+
+      <!-- End ads2 Section -->
+      <section class="ads">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="assets/img/adsSlider/add-afratin.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="assets/img/adsSlider/ads-yelsan.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- End ads2 Section -->
+
+      <!-- Start Proposal Section -->
+      <section class="Proposal">
+        <h2>پیشنهاد دیجی‌کالا</h2>
+        <div class="swiper_proposal">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category1.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category1.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category1.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category2.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category3.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category4.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category5.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category6.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category7.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category8.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category1.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category5.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category3.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category6.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category8.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category7.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="proposal_item">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category2.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+              <div class="proposal_item" style="border-top: 1px solid #ccc">
+                <div class="proposal_img">
+                  <img src="assets/img/proposal/category1.jpg" alt="" />
+                </div>
+                <span class="mt-2 d-block text-center">گوشی موبایل</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Proposal Section -->
+
+      <!-- Start Brand Section -->
+      <section class="brand">
+        <div class="brand_wrapper">
+          <h2>محبوب‌ترین برندها</h2>
+          <div class="swiper_baner">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand8.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand5.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand3.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand6.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand9.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand1.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand7.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand5.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand9.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand3.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand6.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand5.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand1.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="brand-item">
+                  <img src="assets/img/barands/brand10.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Brand Section -->
+
+      <!-- start ads2 Section -->
+      <section class="ads">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="assets/img/adsSlider/ads-fulika.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="assets/img/adsSlider/ads-kermi.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- End ads2 Section -->
+
+      <!-- Start Footer Section -->
+      <footer>
+        <div class="footer-wrapper">
+          <section class="desc">
+            <img width="120px" src="assets/img/logo-footer.svg" alt="" />
+            <a href="#" class="slide-to-top">
+              <span class="ml-3">بازگشت به بالا</span>
+              <i class="fa fa-angle-up"></i>
+            </a>
+          </section>
+          <div
+            class="d-flex justify-content-start align-items-center mt-3"
+            style="font-size: 13px">
+            <span class="">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</span>
+            <span class="mr-3"> | </span>
+            <span class="mr-3">۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</span>
+          </div>
+          <section class="servises d-none d-lg-block">
+            <div>
+              <div>
+                <img src="assets/img/servises/servis-footer1.svg" alt="" />
+                <span class="mt-1">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+              </div>
+              <div>
+                <img src="assets/img/servises/servis-footer2.svg" alt="" />
+                <span class="mt-1">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+              </div>
+              <div>
+                <img src="assets/img/servises/servis-footer3.svg" alt="" />
+                <span class="mt-1">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+              </div>
+              <div>
+                <img src="assets/img/servises/servis-footer4.svg" alt="" />
+                <span class="mt-1">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+              </div>
+              <div>
+                <img src="assets/img/servises/servis-footer5.svg" alt="" />
+                <span class="mt-1">اﻣﮑﺎن ﺗﺤﻮﯾﻞ اﮐﺴﭙﺮس</span>
+              </div>
+            </div>
+          </section>
+          <section class="row footer-menu">
+            <div class="col-12 col-md-6 col-lg-3">
+              <h2>با دیجی‌کالا</h2>
+              <ul>
+                <li><a href="#">اتاق خبر دیجی‌کالا</a></li>
+                <li><a href="#">فروش در دیجی‌کالا</a></li>
+                <li><a href="#">فرصت‌های شغلی</a></li>
+                <li><a href="#">گزارش تخلف در دیجی‌کالا</a></li>
+                <li><a href="#">تماس با دیجی‌کالا</a></li>
+                <li><a href="#">درباره دیجی‌کالا</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h2>خدمات مشتریان</h2>
+              <ul>
+                <li><a href="#">پاسخ به پرسش‌های متداول</a></li>
+                <li><a href="#">رویه‌های بازگرداندن کالا</a></li>
+                <li><a href="#">شرایط استفاده</a></li>
+                <li><a href="#">حریم خصوصی</a></li>
+                <li><a href="#">گزارش باگ</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h2>راهنمای خرید از دیجی‌کالا</h2>
+              <ul>
+                <li><a href="#">نحوه ثبت سفارش</a></li>
+                <li><a href="#">رویه ارسال سفارش</a></li>
+                <li><a href="#">شیوه‌های پرداخت</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h2>همراه ما باشید!</h2>
+              <div class="socials">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                <a href=""><i class="fa fa-telegram"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+              </div>
+              <div>
+                <span class="text-right mt-3 d-block" style="font-size: 16px"
+                  >با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</span
+                >
+                <form action="#">
+                  <div class="mt-4">
+                    <input
+                      class="send-discount"
+                      name="email"
+                      placeholder="ایمیل شما" />
+                    <button class="btn-send-discount">ثبت</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <section class="row digi-app mt-5">
+            <div
+              class="col-sm-12 text-center col-lg-4 d-flex justify-content-sm-center justify-content-lg-start align-items-center">
+              <img width="50px" src="assets/img/footerlogo3.png" alt="" />
+              <span class="mr-3">دانلود اپلیکیشن دیجی‌کالا</span>
+            </div>
+            <div
+              class="myckets text-center mt-4 mb-4 col-sm-12 col-lg-7 d-md-flex justify-content-sm-center justify-content-lg-start align-items-center">
+              <img
+                class="mt-2"
+                src="assets/img/digi-app/coffe-bazzar.svg"
+                alt="" />
+              <img
+                class="mt-2"
+                src="assets/img/digi-app/google-play.svg"
+                alt="" />
+              <img class="mt-2" src="assets/img/digi-app/myket.svg" alt="" />
+              <img class="mt-2" src="assets/img/digi-app/sib-app.svg" alt="" />
+            </div>
+            <div
+              class="more col-sm-12 col-lg-1 d-flex justify-content-sm-center justify-content-lg-start align-items-center">
+              <span class="d-none d-lg-block">...</span>
+              <span class="d-block d-lg-none"
+                >اطلاعات بیشتر <i class="fa fa-angle-left"></i
+              ></span>
+            </div>
+          </section>
+          <section class="row check mt-5">
+            <div class="col-12 col-lg-7 text-right">
+              <h2>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h2>
+              <p>
+                یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی
+                متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست
+                مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی
+                که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و
+                توانسته از این طریق مشتریان ثابت خود را داشته باشد.
+              </p>
+              <a href="#">مشاهده بیشتر <i class="fa fa-angle-left"></i></a>
+            </div>
+            <div
+              class="col-12 col-lg-5 d-flex justify-content-center mt-3 mt-lg-0">
+              <div class="check-img mr-2">
+                <img src="assets/img/check/kasbokar.png" alt="" />
+              </div>
+              <div class="check-img mr-2">
+                <img src="assets/img/check/logo.png" alt="" />
+              </div>
+              <div class="check-img mr-2">
+                <img src="assets/img/check/rezi.png" alt="" />
+              </div>
+            </div>
+          </section>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center py-5 mt-5"
+          style="border-top: 1px solid #ccc; font-size: 14px; color: #767790">
+          <p>
+            برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع»
+            کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه
+            (فروشگاه آنلاین دیجی‌کالا) است.
+          </p>
+        </div>
+      </footer>
+      <!-- End Footer Section -->
+    </div>
     <div class="cover"></div>
     <div class="cover-under-menu"></div>
 
@@ -395,6 +1252,7 @@
     <script src="assets/js/jquery-3.6.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
   </body>
 </html>

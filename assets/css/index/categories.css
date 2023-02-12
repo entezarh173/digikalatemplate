@@ -1,0 +1,25 @@
+/* start categories Style*/
+.categories {
+    margin-top: 40px;
+  }
+  .categories h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .category_wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+  }
+  .category_wraper .category-item {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    text-align: center;
+    font-size: 13px;
+    margin: 20px 10px;
+  }
+  .category_wraper .category-item {
+  }
+  /* end categories Style*/

@@ -1,0 +1,54 @@
+/* start Brand Style*/
+.brand {
+    margin-top: 40px;
+    padding: 12px 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  .brand h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 0;
+  }
+  .brand .brand_wrapper {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 19px;
+    overflow: hidden;
+  }
+  .brand .brand-item {
+    width: 100%;
+    height: auto;
+  }
+  .brand .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-right: 1px solid #ccc;
+  }
+  .brand .swiper-slide img {
+    width: 100px;
+  }
+  .brand .swiper-slide .brand-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .brand .swiper-button-prev {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccccccab;
+    margin-right: 25px;
+  }
+  .brand .swiper-button-next {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccccccab;
+    margin-left: 25px;
+  }
+  /* end Brand Style*/
